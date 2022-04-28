@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn index.ts",
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.29",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "require": "^2.4.20"
+  }
+}
